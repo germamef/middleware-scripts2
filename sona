@@ -49,7 +49,9 @@ cd linux-x86-64
 #http://<your-ip-address>:9000
 
 #NB: Some servers have firewall enabled. So if you are not able to connect from the browser, then you might want to open the port 9000 with this command:
-
+sudo systemctl start firewalld
+sudo systemctl enable firewalld
+sudo systemctl status firewalld
 sudo firewall-cmd --permanent --add-port=9000/tcpcd
 
 sudo firewall-cmd --reload

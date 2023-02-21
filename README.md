@@ -2,10 +2,10 @@
 Sonarqube installation on Centos-7
 
 
-Created by 
-Last updated: 
+Created by: Germa
+Last updated:2/20/2023 
 
-What is SonarQube?
+#What is SonarQube?
 SonarQube is an open-source platform developed by SonarSource for continuous inspection of code quality. SonarQube does static code analysis, which provides a detailed report of bugs, code smells, vulnerabilities, code duplications.
 
 #Benefits of SonarQube
@@ -25,5 +25,5 @@ Business scaling - No restriction on the number of projects to be evaluated
 
 Enhance developer skills - Regular feedback on quality problems helps developers to improve their coding skills
 
-How to install and configure SonarQube on CentOS 7
+#How to install and configure SonarQube on CentOS 7
 Follow below steps successively to install sonarqube on your centOS server. This process need to be run as a regular user ( Sonarqube doesnt work when you start it as root user).
